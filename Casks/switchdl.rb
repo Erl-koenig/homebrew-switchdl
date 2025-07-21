@@ -2,46 +2,34 @@
 cask "switchdl" do
   desc "A CLI tool for downloading videos from SwitchTube"
   homepage "https://github.com/Erl-koenig/switchdl"
-  version "0.6.2"
+  version "0.6.3"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
   binary "switchdl"
-  manpage "man/switchdl.1"
-  manpage "man/switchdl-video.1"
-  manpage "man/switchdl-channel.1"
-  manpage "man/switchdl-version.1"
-  manpage "man/switchdl-configure.1"
-  manpage "man/switchdl-configure-show.1"
-  manpage "man/switchdl-configure-delete.1"
-  manpage "man/switchdl-configure-validate.1"
-  manpage "man/switchdl-completion.1"
-  manpage "man/switchdl-completion-bash.1"
-  manpage "man/switchdl-completion-fish.1"
-  manpage "man/switchdl-completion-powershell.1"
-  manpage "man/switchdl-completion-zsh.1"
+  manpage "man/*.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.2/switchdl_Darwin_x86_64.tar.gz"
-      sha256 "91acad7673f676b60ceaa8afa699c6b0f33f52fc886db6e0302508051bdda070"
+      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.3/switchdl_Darwin_x86_64.tar.gz"
+      sha256 "ed33e53f5d7a312b80c840fcd18e7bc1863fedbd8f2cea4798610b61e1001549"
     end
     on_arm do
-      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.2/switchdl_Darwin_arm64.tar.gz"
-      sha256 "edd3b9520b16b812f1b99f08bf77a5d61c7c6a91dfe859d12edfd280fdebf8f9"
+      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.3/switchdl_Darwin_arm64.tar.gz"
+      sha256 "ed513b477692f5e2898ee0a8522a1e81b2a54fa00a99d9e7bd313a1769d934c9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.2/switchdl_Linux_x86_64.tar.gz"
-      sha256 "dd0c14158cfdc6e7c96d8d4ab82e1034630d2080e500482a8bf3fbfc57e173cc"
+      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.3/switchdl_Linux_x86_64.tar.gz"
+      sha256 "8b42e8541d7ac822b5a328bd03d513cfccb2f3e925337190a43281a6481591fd"
     end
     on_arm do
-      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.2/switchdl_Linux_arm64.tar.gz"
-      sha256 "8914bee7d3cbba785d00b577f2e40f0f75912d3230703a8b79ff930ff876acd4"
+      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.3/switchdl_Linux_arm64.tar.gz"
+      sha256 "e8e92a2db34e7b93d2632364c5ea0ef5e8fd0f42755775f5ab6cf6d5f93e76c9"
     end
   end
 
