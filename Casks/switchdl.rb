@@ -2,7 +2,7 @@
 cask "switchdl" do
   desc "A CLI tool for downloading videos from SwitchTube"
   homepage "https://github.com/Erl-koenig/switchdl"
-  version "0.6.5"
+  version "0.6.6"
 
   livecheck do
     skip "Auto-generated on release."
@@ -25,23 +25,23 @@ cask "switchdl" do
 
   on_macos do
     on_intel do
-      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.5/switchdl_Darwin_x86_64.tar.gz"
-      sha256 "9a3e82f9352f8cae3b9124fb4c4684b06e1945d5451b105bf0df38c4d41fc8b0"
+      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.6/switchdl_Darwin_x86_64.tar.gz"
+      sha256 "28e581bd3df18b68376403ccf0a3e847facb6c7b2a7f9a9a34f0f825df501fcc"
     end
     on_arm do
-      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.5/switchdl_Darwin_arm64.tar.gz"
-      sha256 "4062817c804df71cebac8dc2049efdeb4e1eae62e17f1b94e3bf2026bfee1147"
+      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.6/switchdl_Darwin_arm64.tar.gz"
+      sha256 "32d47052aec701bc4c000ff080e7315249bff4a93293cf4140d27fe1234351d6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.5/switchdl_Linux_x86_64.tar.gz"
-      sha256 "9c94c1de299ec1b552dc404f5936a4e94401cac0637d5273407612fad62a6201"
+      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.6/switchdl_Linux_x86_64.tar.gz"
+      sha256 "026647c5fc34d6928c419f4e462abb34b7a5d940d30be2ea14865790634cdb36"
     end
     on_arm do
-      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.5/switchdl_Linux_arm64.tar.gz"
-      sha256 "5c50b7ba3bbff7b27cdd6bcc768f22f3766a7a3d25677c76af0c43dfe2d42652"
+      url "https://github.com/Erl-koenig/switchdl/releases/download/v0.6.6/switchdl_Linux_arm64.tar.gz"
+      sha256 "edbb49b488fd08aa098712151fa0120298369dd342e3538ffeda6281b7eb24e3"
     end
   end
 
